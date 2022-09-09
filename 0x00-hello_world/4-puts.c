@@ -3,14 +3,10 @@
 
 
 /**
+ * main - Entry point
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success) on successful execution of a function
- *
- *     */
+ * Return: Always 0 (Success) on successful execution of a function
+ */
 
 int main(void)
 
