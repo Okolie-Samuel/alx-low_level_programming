@@ -1,27 +1,34 @@
-#ifndef MAIN_H
+#ifndef MAIN_H_INCUDED
 
-#define MAIN_H
+#define MAIN_H_INCLUDED
 
 
-int _putchar(char c);
 
-char *_strcat(char *dest, char *src);
+int _putchar(char);
 
-char *_strncat(char *dest, char *src, int n);
+char *_strcat(char *, char *);
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncat(char *,char *,int);
 
-int _strcmp(char *s1, char *s2);
+char *_strncpy(char *, char *, int);
 
-void reverse_array(int *a, int n);
+int _strcmp(char *, char *);
 
-char *string_toupper(char *n);
+void reverse_array(int *,int);
 
-char *cap_string(char *n);
+char *string_toupper(char *);
 
-char *leet(char *n);
+char *cap_string(int *str);
 
-char *rot13(char *n);
+char *leet(char *);
+
+char *rot13(char *);
+
+void print_number(int);
+
+char *infinite_add(char *, char *,char *, int);
+
+void print_buffer(char *, int);
 
 
 #endif /* MAIN_H */
