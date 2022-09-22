@@ -6,9 +6,7 @@
  * @n: input
  * Return: Always 0 (Success)
  * */
-
 char *leet(char *n)
-
 {
 	int i, x;
 	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
@@ -25,5 +23,6 @@ char *leet(char *n)
 			}
 		}
 	}
+
 	return (n);
 }
